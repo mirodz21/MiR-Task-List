@@ -39,7 +39,7 @@ const TaskForm = () => {
           onChange={(e) => setTask(e.target.value)}
           placeholder="Enter Task"
           required
-          maxLength={40}
+          maxLength={20}
         />
         <FormButton variant="primary" type="submit">
           ADD TASK

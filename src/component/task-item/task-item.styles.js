@@ -32,7 +32,7 @@ export const TaskPar = styled.p`
   text-decoration-thickness: 10%;
   ${({ checked }) => checked && "text-decoration: line-through;"};
   @media (max-width: 390px) {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 `;
 export const TimePar = styled.p`

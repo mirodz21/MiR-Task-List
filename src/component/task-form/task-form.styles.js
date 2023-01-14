@@ -41,6 +41,7 @@ export const Input = styled.input`
   background: #e5e7e6;
   @media (max-width: 500px) {
     width: 90%;
+    font-size: 20px;
     margin: auto;
     margin-bottom: 15px;
   }

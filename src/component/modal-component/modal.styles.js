@@ -37,6 +37,8 @@ export const ModalInput = styled.input`
   margin-bottom: 10px;
   @media (max-width: 500px) {
     margin-top: 5px;
+    height: 50px;
+    font-size: 20px;
   }
 `;
 

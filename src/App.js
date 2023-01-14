@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import TaskForm from "./component/task-form/task-form.component";
+import { Container, OutsideDiv } from "./App.styles";
+import TaskList from "./component/task-list/task-list.component";
+import Footer from "./component/footer-component/footer.component";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <OutsideDiv>
+        <TaskForm />
+        <TaskList />
+        <Footer />
+      </OutsideDiv>
+    </Container>
   );
 }
 

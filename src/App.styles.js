@@ -16,6 +16,9 @@ export const OutsideDiv = styled.div`
   padding: 10px 5px;
   display: flex;
   flex-direction: column;
+  @media (max-width: 390px) {
+    width: 350px;
+  }
 `;
 
 export const Title = styled.h3`

@@ -15,6 +15,9 @@ export const ListItem = styled.li`
   border: 1.4px solid #002400;
   box-shadow: 4px 5px #dbd2e0;
   margin-bottom: 10px;
+  @media (max-width: 390px) {
+    width: 300px;
+  }
 `;
 
 export const ListItemDiv = styled.div`
@@ -28,10 +31,16 @@ export const TaskPar = styled.p`
   padding: 5px 0px;
   text-decoration-thickness: 10%;
   ${({ checked }) => checked && "text-decoration: line-through;"};
+  @media (max-width: 390px) {
+    font-size: 0.8rem;
+  }
 `;
 export const TimePar = styled.p`
   font-size: 10px;
   color: #273b09;
+  @media (max-width: 390px) {
+    font-size: 0.5rem;
+  }
 `;
 
 export const EditIcon = styled(Edit)`

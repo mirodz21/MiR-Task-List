@@ -26,12 +26,18 @@ export const ModalContainer = styled.form`
   padding: 15px;
   position: absolute;
   top: 30%;
+  @media (max-width: 390px) {
+    width: 300px;
+  }
 `;
 
 export const ModalInput = styled.input`
   height: 30px;
   padding: 5px;
   margin-bottom: 10px;
+  @media (max-width: 390px) {
+    margin-top: 5px;
+  }
 `;
 
 export const ButtonContainer = styled.div`

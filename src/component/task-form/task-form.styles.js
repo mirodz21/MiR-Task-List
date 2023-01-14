@@ -11,6 +11,10 @@ export const StyledDiv = styled.div`
   background: #295135;
   padding: 10px 20px;
   margin-top: 10px;
+
+  @media (max-width: 390px) {
+    width: 300px;
+  }
 `;
 
 export const StyledForm = styled.form`
@@ -20,6 +24,10 @@ export const StyledForm = styled.form`
   align-items: center;
   width: 450px;
   height: auto;
+  @media (max-width: 390px) {
+    flex-direction: column;
+    width: 300px;
+  }
 `;
 
 export const Input = styled.input`
@@ -29,6 +37,11 @@ export const Input = styled.input`
   font-size: 15px;
   outline: none;
   background: #e5e7e6;
+  @media (max-width: 390px) {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
 `;
 
 export const FormButton = styled.button`

@@ -3,8 +3,10 @@ export const Container = styled.div`
   width: 100vw;
   height: 100vh;
   margin: auto;
-  padding: 10px;
+  padding: 10px 10px 10px 10px;
 `;
+
+// BEIGE BOX
 export const OutsideDiv = styled.div`
   width: 650px;
   height: auto;
@@ -13,11 +15,11 @@ export const OutsideDiv = styled.div`
   box-shadow: rgba(0, 0, 0.3) 0px 5px 10px;
   align-items: center;
   text-align: left;
-  padding: 10px 5px;
   display: flex;
   flex-direction: column;
-  @media (max-width: 390px) {
-    width: 350px;
+  padding: 10px;
+  @media (max-width: 500px) {
+    width: 370px;
   }
 `;
 

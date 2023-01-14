@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+// GREEN BOX
 export const StyledDiv = styled.div`
   display: flex;
   flex-direction: column;
@@ -9,14 +10,15 @@ export const StyledDiv = styled.div`
   border-radius: 5px;
   align-items: center;
   background: #295135;
-  padding: 10px 20px;
+  padding: 20px 20px;
   margin-top: 10px;
 
-  @media (max-width: 390px) {
-    width: 300px;
+  @media (max-width: 500px) {
+    width: 340px;
   }
 `;
 
+// INPUT AND BUTTON DIV
 export const StyledForm = styled.form`
   display: flex;
   flex-direction: row;
@@ -24,9 +26,9 @@ export const StyledForm = styled.form`
   align-items: center;
   width: 450px;
   height: auto;
-  @media (max-width: 390px) {
+  @media (max-width: 500px) {
     flex-direction: column;
-    width: 300px;
+    width: 350px;
   }
 `;
 
@@ -37,7 +39,7 @@ export const Input = styled.input`
   font-size: 15px;
   outline: none;
   background: #e5e7e6;
-  @media (max-width: 390px) {
+  @media (max-width: 500px) {
     width: 90%;
     margin: auto;
     margin-bottom: 15px;

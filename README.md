@@ -34,11 +34,12 @@ Ensure you have the following installed on your local machine:
 
 1. Clone the repository:
    ```bash
-   https://github.com/mirodz21/investmentcalculator.git
+   https://github.com/mirodz21/MiR-Task-List.git
 
 2. Navigate to the project directory:
    ```bash
-   cd investmentcalculator
+   cd mir-task-list
+   
 3. Install the dependencies:
    ```bash
    npm install

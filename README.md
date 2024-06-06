@@ -49,5 +49,3 @@ Ensure you have the following installed on your local machine:
   To start the development server, use the following command:
    ```bash
    npm start
-
-   

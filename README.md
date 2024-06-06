@@ -18,7 +18,7 @@ Welcome to the Mir Task List! This application helps users manage their tasks ef
 
 - Frontend: React
 - Styling: SCSS/SASS
-- State Management: useState, useEffect
+- State Management: Redux
 
 
 ## Getting Started

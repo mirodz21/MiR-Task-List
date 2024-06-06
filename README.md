@@ -46,6 +46,6 @@ Ensure you have the following installed on your local machine:
    
 ### Running the App
 
-  To start the development server, use the following command:
+To start the development server, use the following command:
    ```bash
    npm start
